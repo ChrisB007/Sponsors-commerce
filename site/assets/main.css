@@ -5,3 +5,8 @@
 @import './components.css';
 
 @tailwind utilities;
+
+.hero-img {
+  background-image: url('/assets/blur.jpg');
+  object-fit: cover;
+}
