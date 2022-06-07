@@ -75,7 +75,8 @@ const UserNav: React.FC<{
                   className={s.avatarButton}
                   onClick={() => (isCustomerLoggedIn ? null : openModal())}
                 >
-                  <Avatar />
+                  {/*<Avatar />*/}
+                  Login|Register
                 </button>
               </DropdownTrigger>
               <CustomerMenuContent />
