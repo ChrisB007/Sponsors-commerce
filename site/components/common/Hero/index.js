@@ -35,11 +35,11 @@ const Hero = () => {
                   Unique products
                 </span>
               </h1>
-              <h2 className="mt-3 merch font-bold text-base text-white sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
+              <h2 className="white-hero mt-3 merch font-bold text-base text-white sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
                 We source Unique products from all over the world for you to
                 offer your loyal subscribers.
               </h2>
-              <ul className="mt-3 pb-3 pl-3 merch list-disc text-base text-white sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
+              <ul className="white-hero mt-3 pb-3 pl-3 merch list-disc text-base text-white sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
                 <li>Merch your subscribers with more than {`'T-shirts'`}</li>
                 <li>Merch Quality products</li>
                 <li>Handcrafted collections</li>
