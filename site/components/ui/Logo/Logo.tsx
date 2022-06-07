@@ -1,3 +1,5 @@
+import logoImage from '../../../public/assets/sponsors.png'
+
 const Logo = ({ className = '', ...props }) => (
   <svg
     width="32"

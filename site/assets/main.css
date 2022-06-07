@@ -10,3 +10,7 @@
   background-image: url('/assets/blur.jpg');
   object-fit: cover;
 }
+
+.fund {
+  background: #ef4344;
+}

@@ -2,8 +2,9 @@ import { FC } from 'react'
 import Link from 'next/link'
 import s from './Navbar.module.css'
 import NavbarRoot from './NavbarRoot'
-import { Logo, Container } from '@components/ui'
+import { Container } from '@components/ui'
 import { Searchbar, UserNav } from '@components/common'
+import Image from 'next/image'
 
 interface Link {
   href: string
@@ -20,8 +21,13 @@ const Navbar: FC<NavbarProps> = ({ links }) => (
       <div className={s.nav}>
         <div className="flex items-center flex-1">
           <Link href="/">
-            <a className={s.logo} aria-label="Logo">
-              <Logo />
+            <a>
+              <Image
+                src="/assets/sponsors.png"
+                width={146}
+                height={28}
+                alt="logo"
+              />
             </a>
           </Link>
           <nav className={s.navMenu}>
