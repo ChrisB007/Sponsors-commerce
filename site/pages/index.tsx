@@ -5,6 +5,8 @@ import { Grid, Marquee } from '@components/ui'
 // import HomeAllProductsGrid from '@components/common/HomeAllProductsGrid'
 import type { GetStaticPropsContext, InferGetStaticPropsType } from 'next'
 import Hero from '@components/common/Hero'
+import HowItWorks from '@components/common/HowItWorks'
+import Services from '@components/Services'
 
 export async function getStaticProps({
   preview,
@@ -42,24 +44,13 @@ export default function Home({
   return (
     <>
       <Hero />
-      {/*<Grid variant="filled">
-        {products.slice(0, 3).map((product: any, i: number) => (
-          <ProductCard
-            key={product.id}
-            product={product}
-            imgProps={{
-              width: i === 0 ? 1080 : 540,
-              height: i === 0 ? 1080 : 540,
-              priority: true,
-            }}
-          />
-        ))}
-      </Grid>*/}
-      <Marquee variant="secondary">
+      <HowItWorks />
+      {/*<Marquee variant="secondary">
         {products.slice(0, 3).map((product: any, i: number) => (
           <ProductCard key={product.id} product={product} variant="slim" />
         ))}
-      </Marquee>
+      </Marquee>*/}
+      <Services />
       <Grid layout="B" variant="filled">
         {products.slice(0, 3).map((product: any, i: number) => (
           <ProductCard
