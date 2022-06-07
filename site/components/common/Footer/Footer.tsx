@@ -29,7 +29,10 @@ const Footer: FC<Props> = ({ className, pages }) => {
       <Container>
         <div className="pt-6 pb-10 flex flex-col md:flex-row justify-between items-center space-y-4 text-accent-6 text-sm">
           <div>
-            <span>&copy; 2020 ACME, Inc. All rights reserved.</span>
+            <span>
+              &copy; {new Date().getFullYear()} PublicTrades, LLC. All Rights
+              Reserved.
+            </span>
           </div>
         </div>
       </Container>

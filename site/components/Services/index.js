@@ -29,8 +29,8 @@ export default function Services() {
   return (
     <div className="py-12 bg-white">
       <div className="max-w-xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
-        <h1 className="text-4xl font-bold mb-2">How it works</h1>
-        <h2 className="sr-only">A better way to send money.</h2>
+        <h1 className="text-4xl font-bold mb-4">How it works</h1>
+        <h2 className="sr-only">How it works.</h2>
         <dl className="space-y-10 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-8">
           {features.map((feature) => (
             <div key={feature.name}>

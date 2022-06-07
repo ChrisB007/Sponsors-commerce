@@ -1,7 +1,6 @@
 import cn from 'clsx'
 import Link from 'next/link'
 import s from './UserNav.module.css'
-import { Avatar } from '@components/common'
 import useCart from '@framework/cart/use-cart'
 import { useUI } from '@components/ui/context'
 import { Heart, Bag, Menu } from '@components/icons'
@@ -75,7 +74,6 @@ const UserNav: React.FC<{
                   className={s.avatarButton}
                   onClick={() => (isCustomerLoggedIn ? null : openModal())}
                 >
-                  {/*<Avatar />*/}
                   Creators Login
                 </button>
               </DropdownTrigger>
