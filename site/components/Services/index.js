@@ -8,19 +8,19 @@ const features = [
   {
     name: 'Browse Merches',
     description:
-      'Browse through an array of Unique merchandises for your channel based on category.',
+      'Browse through selection of Handpicked merchandises for your channel based on category.',
     icon: GlobeAltIcon,
   },
   {
     name: 'Make it Unique',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      'Once you find the product you like, work with our artists to customize it to fit your brand.',
     icon: ScaleIcon,
   },
   {
     name: 'Go to Market',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      'Upon your approval we send it to production, store for your, and finally ship to your subscribers as orders comes in.',
     icon: LightningBoltIcon,
   },
 ]
