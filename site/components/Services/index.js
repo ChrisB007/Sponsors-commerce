@@ -24,7 +24,7 @@ const features = [
   {
     name: 'Go to Market',
     description:
-      'Upon your approval we send it to production, store for your, and finally ship to your subscribers as orders comes in.',
+      'Upon approval we will send to production, keep & track inventories, and finally ship to subscribers as orders comes in.',
     icon: TruckIcon,
   },
 ]
