@@ -4,8 +4,8 @@ const Logo = ({ className = '', ...props }) => (
     version="1.1"
     xmlns="http://www.w3.org/2000/svg"
     //    xmlns:xlink="http://www.w3.org/1999/xlink"
-    width="400"
-    height="423.25581395348837"
+    width="50"
+    height="50"
     viewBox="0, 0, 400,423.25581395348837"
   >
     <g id="svgg">
