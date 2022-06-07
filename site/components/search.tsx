@@ -209,7 +209,7 @@ export default function Search({ categories, brands }: SearchPropsType) {
                   aria-labelledby="options-menu"
                 >
                   <ul>
-                    <li
+                    {/*<li
                       className={cn(
                         'block text-sm leading-5 text-accent-4 lg:text-base lg:no-underline lg:font-bold lg:tracking-wide hover:bg-accent-1 lg:hover:bg-transparent hover:text-accent-8 focus:outline-none focus:bg-accent-1 focus:text-accent-8',
                         {
@@ -232,7 +232,7 @@ export default function Search({ categories, brands }: SearchPropsType) {
                           All Designers
                         </a>
                       </Link>
-                    </li>
+                    </li>*/}
                     {brands.flatMap(({ node }: { node: any }) => (
                       <li
                         key={node.path}
