@@ -18,3 +18,23 @@
 .white-hero {
   color: #fff;
 }
+
+@media screen and (max-width: 1023px) {
+  .hero-image-one {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 640px) and (max-width: 1023px) {
+  .hero-img {
+    height: 695px;
+  }
+  .white-hero {
+    list-style: none;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1137px) {
+  .hero-img {
+    height: 856px !important;
+  }
+}

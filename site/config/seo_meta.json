@@ -1,23 +1,23 @@
 {
-  "title": "Spnsors",
-  "titleTemplate": "%s - ACME Storefront",
-  "description": "Next.js Commerce - https://www.nextjs.org/commerce",
+  "title": "Sp nsors",
+  "titleTemplate": "Sp nsors",
+  "description": "Merching Creators, Podcasters and their channels with unique products and services.",
   "openGraph": {
-    "title": "Spnsors",
+    "title": "Sp nsors",
     "description": "Merching Creators, Podcasters and their channels with unique products and services.",
     "type": "website",
     "url": "https://nextjs.org/commerce",
-    "site_name": "Spnsors",
+    "site_name": "Sp nsors",
     "images": [{
       "url": "/card.png",
       "width": "800",
       "height": "600",
-      "alt": "Spnsors"
+      "alt": "Sp nsors"
     }]
   },
   "twitter": {
-    "handle": "@nextjs",
-    "site": "@nextjs",
+    "handle": "@publictrades",
+    "site": "@publictrades",
     "cardType": "summary_large_image"
   }
 }

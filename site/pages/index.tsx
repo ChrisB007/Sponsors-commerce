@@ -3,7 +3,7 @@ import { Layout } from '@components/common'
 import type { GetStaticPropsContext, InferGetStaticPropsType } from 'next'
 import Hero from '@components/common/Hero'
 import HowItWorks from '@components/common/HowItWorks'
-import Services from '@components/Services'
+import Services from '@components/common/Services'
 
 export async function getStaticProps({
   preview,

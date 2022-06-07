@@ -39,7 +39,7 @@ const Hero = () => {
                 We source Unique products from all over the world for you to
                 offer your loyal subscribers.
               </h2>
-              <ul className="white-hero mt-3 pb-3 pl-3 merch list-disc text-base text-white sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
+              <ul className="white-hero list-none md:list-none md:h-[430px] mt-3 pb-3 pl-3 merch text-base text-white sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
                 <li>Merch your subscribers with more than {`'T-shirts'`}</li>
                 <li>Merch Quality products</li>
                 <li>Handcrafted collections</li>
@@ -50,8 +50,8 @@ const Hero = () => {
               </ul>
             </div>
           </div>
-          <div className="small-hide mt-12 mb-16 sm:-mb-48 lg:m-0 lg:relative">
-            <span className="">
+          <div className="small-hide sm:-mb-48 lg:m-0 lg:relative">
+            <span className="hero-image-one">
               <Image
                 className="imginset w-full object-cover lg:absolute rounded-full lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                 src="/assets/logme.jpg"
@@ -60,7 +60,7 @@ const Hero = () => {
                 height={425}
               />
             </span>
-            <span className="">
+            <span className="hero-image-one">
               <Image
                 className="w-full lg:absolute object-cover rounded-full lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                 src="/assets/shipper.jpeg"
