@@ -195,7 +195,7 @@ export default function Search({ categories, brands }: SearchPropsType) {
                 </button>
               </span>
             </div>
-            <div
+            {/*<div
               className={`origin-top-left absolute lg:relative left-0 mt-2 w-full rounded-md shadow-lg lg:shadow-none z-10 mb-10 lg:block ${
                 activeFilter !== 'brands' || toggleFilter !== true
                   ? 'hidden'
@@ -209,7 +209,7 @@ export default function Search({ categories, brands }: SearchPropsType) {
                   aria-labelledby="options-menu"
                 >
                   <ul>
-                    {/*<li
+                    <li
                       className={cn(
                         'block text-sm leading-5 text-accent-4 lg:text-base lg:no-underline lg:font-bold lg:tracking-wide hover:bg-accent-1 lg:hover:bg-transparent hover:text-accent-8 focus:outline-none focus:bg-accent-1 focus:text-accent-8',
                         {
@@ -232,7 +232,7 @@ export default function Search({ categories, brands }: SearchPropsType) {
                           All Designers
                         </a>
                       </Link>
-                    </li>*/}
+                    </li>
                     {brands.flatMap(({ node }: { node: any }) => (
                       <li
                         key={node.path}
@@ -264,7 +264,7 @@ export default function Search({ categories, brands }: SearchPropsType) {
                   </ul>
                 </div>
               </div>
-            </div>
+            </div>*/}
           </div>
         </div>
         {/* Products */}
