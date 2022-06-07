@@ -1,7 +1,11 @@
 import {
+  ColorSwatchIcon,
   GlobeAltIcon,
   LightningBoltIcon,
+  PuzzleIcon,
   ScaleIcon,
+  SearchIcon,
+  TruckIcon,
 } from '@heroicons/react/outline'
 
 const features = [
@@ -9,19 +13,19 @@ const features = [
     name: 'Browse Merches',
     description:
       'Browse through selection of Handpicked merchandises for your channel based on category.',
-    icon: GlobeAltIcon,
+    icon: SearchIcon,
   },
   {
     name: 'Make it Unique',
     description:
       'Once you find the product you like, work with our artists to customize it to fit your brand.',
-    icon: ScaleIcon,
+    icon: ColorSwatchIcon,
   },
   {
     name: 'Go to Market',
     description:
       'Upon your approval we send it to production, store for your, and finally ship to your subscribers as orders comes in.',
-    icon: LightningBoltIcon,
+    icon: TruckIcon,
   },
 ]
 
