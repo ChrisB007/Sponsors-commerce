@@ -22,7 +22,7 @@ module.exports = withCommerceConfig({
       },
       // The logout is also an action so this route is not required, but it's also another way
       // you can allow a logout!
-      isBC && {
+      isShopify && {
         source: '/logout',
         destination: '/api/logout?redirect_to=/',
       },
