@@ -12,13 +12,13 @@ const features = [
   {
     name: 'Browse Merches',
     description:
-      'Browse through selection of Handpicked merchandises for your channel based on category.',
+      'Browse through selections of handpicked merchandises we believe your subscribers would appreciate based on your category. You can also commission us to source for products that are not listed.',
     icon: SearchIcon,
   },
   {
     name: 'Make it Unique',
     description:
-      'Once you find the product you like, work with our artists to customize it to fit your brand.',
+      'Once you find the product you like, work with our vetted artists and designers to customize it to fit your brand.',
     icon: ColorSwatchIcon,
   },
   {
